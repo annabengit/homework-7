@@ -295,7 +295,7 @@
 .skating {
   position: absolute;
   top: 45%;
-  left: 37%;
+  left: 45%;
   transform: translateX(-50%, -50%);
   height: 47%;
 }
@@ -303,15 +303,11 @@
 .snowman {
   position: absolute;
   top: 55%;
-  left: 57%;
+  left: 62%;
   transform: translateX(-50%, -50%);
   height: 35%;
 }
 
-.ice {
-  margin-left: 25%;
-  margin-right: 25%;
-}
 .skating:hover {
   top: 35%;
   height: 53%;
