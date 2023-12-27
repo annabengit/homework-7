@@ -308,6 +308,10 @@
   height: 35%;
 }
 
+.ice {
+  margin-left: 25%;
+  margin-right: 25%;
+}
 .skating:hover {
   top: 35%;
   height: 53%;
