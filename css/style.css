@@ -101,7 +101,7 @@
   width: 80px;
 }
 
-.s1 {
+/* .s1 {
   position: absolute;
   top: 70px;
   left: 150px;
@@ -154,6 +154,69 @@
   position: absolute;
   top: 410px;
   left: 1530px;
+  width: 35px;
+} */
+
+.s1 {
+  position: absolute;
+  top: 4.67%;
+  left: 10%;
+  width: 50px;
+}
+
+.s2 {
+  position: absolute;
+  top: 20%;
+  left: 36.67%;
+  width: 70px;
+}
+
+.s3 {
+  position: absolute;
+  top: 90%;
+  left: 4%;
+  width: 45px;
+}
+
+.s4 {
+  position: absolute;
+  top: 52%;
+  left: 81.33%;
+  width: 66px;
+}
+
+.s5 {
+  position: absolute;
+  top: 43.33%;
+  left: 11.67%;
+  width: 55px;
+}
+
+.s6 {
+  position: absolute;
+  top: 8%;
+  left: 93.33%;
+  width: 59px;
+}
+
+.s7 {
+  position: absolute;
+  top: 16%;
+  left: 62.33%;
+  width: 38px;
+}
+
+.s8 {
+  position: absolute;
+  top: 53.33%;
+  left: 40%;
+  width: 42px;
+}
+
+.s9 {
+  position: absolute;
+  top: 27.33%;
+  left: 102%;
   width: 35px;
 }
 
@@ -214,14 +277,7 @@
 .s9 {
   animation: pulsate 2s infinite ease-in-out;
 }
-
-.rabbit {
-  position: absolute;
-  top: 30px;
-  left: 50px;
-  width: 67px;
-}
-
+/* 
 .skating {
   position: absolute;
   top: 45%;
@@ -234,16 +290,32 @@
   top: 57%;
   left: 55%;
   height: 35%;
+} */
+
+.skating {
+  position: absolute;
+  top: 45%;
+  left: 37%;
+  transform: translateX(-50%, -50%);
+  height: 47%;
+}
+
+.snowman {
+  position: absolute;
+  top: 55%;
+  left: 57%;
+  transform: translateX(-50%, -50%);
+  height: 35%;
 }
 
 .skating:hover {
-  top: 37%;
-  height: 55%;
-  left: 32%;
+  top: 35%;
+  height: 53%;
+  left: 35%;
 }
 
 .snowman:hover {
   top: 45%;
-  left: 58%;
+  left: 61%;
   height: 40%;
 }
